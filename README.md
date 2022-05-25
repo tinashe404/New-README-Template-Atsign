@@ -1,6 +1,6 @@
-[] Header
-[] Links to social media and website
-[] Pubdev badges and version badges
+ - Header
+ - Links to social media and website
+ - Pubdev badges and version badges
 
 ⚕️ # Priv@teFit
 
@@ -28,18 +28,18 @@ Got any ideas to improve this project you would like to share? Send the maintani
 
 ## What’s the @platform? 
 
-[] @Platform Description
-[] Get Started Blog Link
-[] @Platform architecture
+- @Platform Description
+- Get Started Blog Link
+- @Platform architecture
 
 ## 🦦 Contributing to the Project
 
-[] Modify the current one and tweak the content.
-[] Add a contributors guide “a .md file”.
+-  Modify the current one and tweak the content.
+- Add a contributors guide “a .md file”.
      - For Devs.
      - For Designers.
 
-🎊 ## Acknowledgment(if req.) / Contributors & Maintainers Section 
+## 🎊 Acknowledgment(if req.) / Contributors & Maintainers Section 
 
 
 ### Project Maintainers
