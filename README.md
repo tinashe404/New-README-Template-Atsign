@@ -1,4 +1,12 @@
- - Header
+ <br />
+<p align="center">
+    <a href="atsign.com" target="_blank"><img width="260" height="39" src="https://atsign.com/wp-content/uploads/2020/09/The@Company-Logo@2x.png.webp" alt="Logo"></a>
+    <br />
+    <br />
+    <b>This is the @platform, where YOU own the data.</b>
+    <br />
+    <br />
+</p>
  - Links to social media and website
  - Pubdev badges and version badges
 
