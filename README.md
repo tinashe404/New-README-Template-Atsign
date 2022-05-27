@@ -15,7 +15,11 @@
     <img src="https://img.shields.io/twitter/follow/atsigncompany?style=social" />
   </a>
 </p>
- - Pubdev badges and version badges
+<p align="center">
+   <img src="https://img.shields.io/github/downloads/atsign-foundation/privatefit/total?style=social">
+    <img src="https://img.shields.io/github/repo-size/atsign-foundation/privatefit" />
+</p>
+
 
 # ⚕️ Priv@teFit
 
