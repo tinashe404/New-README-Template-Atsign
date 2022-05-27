@@ -7,7 +7,14 @@
     <br />
     <br />
 </p>
- - Links to social media and website
+<p align="center">
+  <a href="https://discord.gg/TpGPHQcK3G">
+   <img src="https://img.shields.io/discord/700316478792138842?label=Join%20Our%20Community&style=appveyor&logo=discord&color=orange">
+   </a>
+  <a href="https://twitter.com/intent/follow?screen_name=atsigncompany">
+    <img src="https://img.shields.io/twitter/follow/atsigncompany?style=social" />
+  </a>
+</p>
  - Pubdev badges and version badges
 
 # ⚕️ Priv@teFit
