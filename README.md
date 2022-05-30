@@ -65,8 +65,6 @@ Got any ideas to improve this project you would like to share? Send the maintani
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Jatinpandya26"><img src="https://avatars.githubusercontent.com/u/44518520?v=5" width="100px;" alt=""/><br /><sub><b>Jatin Pandya</b></sub></a></td>
-  </tr>
- <tr>
     <td align="center"><a href="https://github.com/CynthiaPeter"><img src="https://avatars.githubusercontent.com/u/33583060?v=4" width="100px;" alt=""/><br /><sub><b>Cynthia Peter</b></sub></a></td>
 </tr>
 </table>
