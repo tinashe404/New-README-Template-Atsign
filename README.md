@@ -1,6 +1,6 @@
  <br />
 <p align="center">
-    <a href="atsign.com" target="_blank"><img width="260" height="39" src="https://atsign.com/wp-content/uploads/2020/09/The@Company-Logo@2x.png.webp" alt="Logo"></a>
+    <a href="atsign.com" target="_blank"><img width="260" height="39" src="https://camo.githubusercontent.com/498e9071f6f772c301ab82e626146b74ef3f8ec95ec760347a5823a1fcaadcfa/68747470733a2f2f61747369676e2e6465762f6173736574732f696d672f40706c6174666f726d5f6c6f676f5f677265792e7376673f73616e6974697a653d74727565" alt="Logo"></a>
     <br />
     <br />
     <b>This is the @platform, where YOU own the data.</b>
