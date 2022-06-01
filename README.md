@@ -22,29 +22,21 @@
 </p>
 
 
-# ⚕️ Priv@teFit
+# Priv@teFit
 
-Priv@teFit is an open source application that allows consumers to share health data with eachother through a peer-to-peer encrypted connection. Born at HackPrinceton 2021 and created by Raheem Idowu, and Michelle Liu. This project originated as a winning project from the hackathon.
+Priv@teFit is an open-source private wellness app that allows consumers to share health data with each other through a peer-to-peer encrypted connection built on the @platform. Born at HackPrinceton 2021 and created by Raheem Idowu, and Michelle Liu. This project originated as a winning project from the hackathon.
+Priv@teFit hopes to offer features like:
 
-## 🏗 What is this project built on?
+1. Message your health community polymorphically, with your fitness trainer, your workout pals, and your healthy diet friends.
+- Share your fitness trainer data that only he or she can view.
+- Share your fitness routine data that only certain friends can view.
+- Share your diet plan data only with a few trusted pals.
 
-Built on the @platform SDK - which is a collection of tools that enable developers to build privacy-first applications. Flutter and Dart make up the major stack of this application and the @platform SDK itself.
+2. Privately monitor your daily activity, sports and workout routine, and calories.
+- Retract that data and info when you want.
+- Modify that data and info when you want.
 
-## 🖲 Whom is this project for?
-
-### Developers
-
-### Designers
-
-Got any ideas to improve this project you would like to share? Send the maintaniers an email or join us on Discord.
-
-## Installation and Get Started Guide:
-
-- **OS Based guide**
-  - Windows
-  - Unix
-  - iOS
-- **Get Started - Flutter packages and dependencies**.
+3. Reason over your own data without Big Data companies getting access or forcing you down AI paths that just don’t fit who you really are.
 
 ## ＠ What’s the @platform? 
 
@@ -52,14 +44,65 @@ Got any ideas to improve this project you would like to share? Send the maintani
 - Get Started Blog Link
 - @Platform architecture
 
-## 🦦 Contributing to the Project
+## 🦦 Get Started
 
--  Modify the current one and tweak the content.
-- Add a contributors guide “a .md file”.
-     - For Devs.
-     - For Designers.
+1. Fork this repo before getting started with the3 code.
+2. If this is your first time here, we strongly recommend navigating through our ‘getting started’ page. There, you will find all of the steps you will need to take in order to start developing your very own @platform application.
 
-## 🎊 Acknowledgment(if req.) / Contributors & Maintainers Section 
+Note: - If you’d like to see what an @platform application looks like, feel free to visit our ‘sample apps’ page! Here, you will find a list of demonstrative applications showing off the many verbs/methods that exist on the @platform. The most basic of this list is ‘at_hello_world’ and the most advanced are ‘at_cookbook’ and ‘@mosphere’
+
+3. You can check our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and details on contribution to the atsign foundation and our application architecture.
+
+## >> Packages Required: 
+     
+### at_app
+
+[![pub package](https://img.shields.io/pub/v/at_app)](https://pub.dev/packages/at_app)
+[![pub points](https://badges.bar/at_app/pub%20points)](https://pub.dev/packages/at_app/score)
+[![gitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)](packages/at_app/LICENSE)
+
+This is a command-line to make learning the @platform and building on it easier. If you are a developer working on the @platform, it is recommended that you try out this tool.
+
+[[View on pub.dev](https://pub.dev/packages/at_app)]
+
+[[View Source](/packages/at_app)]
+
+### at_app_flutter
+
+[![pub package](https://img.shields.io/pub/v/at_app_flutter)](https://pub.dev/packages/at_app_flutter)
+[![pub points](https://badges.bar/at_app_flutter/pub%20points)](https://pub.dev/packages/at_app_flutter/score)
+[![gitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)](packages/at_app_flutter/LICENSE)
+
+This package is added to generated apps and provides additional functionality required by the templates. For now, all it does is read the .env file into a model called AtEnv.
+
+[[View on pub.dev](https://pub.dev/packages/at_app_flutter)]
+
+[[View Source](/packages/at_app_flutter)]
+
+### at_app_create
+
+[![pub package](https://img.shields.io/pub/v/at_app_create)](https://pub.dev/packages/at_app_create)
+[![pub points](https://badges.bar/at_app_create/pub%20points)](https://pub.dev/packages/at_app_create/score)
+[![gitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)](/packages/at_app_create/LICENSE)
+
+This package provides the core code for the create command in at_app, you can depend on this package if you would like to build your own package of the tool.
+
+[[View on pub.dev](https://pub.dev/packages/at_app_create)]
+
+[[View Source](/packages/at_app_create)]
+
+### at_app_bundler
+
+[![pub package](https://img.shields.io/pub/v/at_app_bundler)](https://pub.dev/packages/at_app_bundler)
+[![pub points](https://badges.bar/at_app_bundler/pub%20points)](https://pub.dev/packages/at_app_bundler/score)
+[![gitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)](/packages/at_app_bundler/LICENSE)
+
+
+This is a command-line bundler tool for at_app_create, it allows you to easily bundle a mason brick (with an additional template.yaml file) into the necessary at_app_create models to generate an entire Flutter application from.
+
+[[View on pub.dev](https://pub.dev/packages/at_app_bundler)]
+
+[[View Source](/packages/at_app_bundler)]
 
 ## Project Maintainers 
 
@@ -74,4 +117,3 @@ Got any ideas to improve this project you would like to share? Send the maintani
 
 ## LICENSE
 This project has an MIT license for open-source development.
-
