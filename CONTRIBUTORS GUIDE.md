@@ -1,88 +1,75 @@
 <img width=250px src="https://atsign.dev/assets/img/@platform_logo_grey.svg?sanitize=true">
 
-We :heart: [Pull Requests](https://help.github.com/articles/about-pull-requests/)
-for fixing issues or adding features. Thanks for your contribution!
+# Contributing to Priv@tfit
+
+Hi there!
+Thanks for your interest in contributing to Priv@tefit.
+
+We 💙 and accept [Pull Requests](https://help.github.com/articles/about-pull-requests/)
+for fixing issues or adding features.
 
 Please read our [code of conduct](code_of_conduct.md), which is based on
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
 
-For small changes, especially documentation, you can simply use the "Edit" button
+### Housekeeping🧹
+
+→ Check existing issues to verify that the bug or feature request has not already been submitted.
+
+→ Open a pull request for any issue labelled help wanted or good first issue.
+
+→ For small changes, especially documentation, you can simply use the "Edit" button
 to update the Markdown file, and start the
 [pull request](https://help.github.com/articles/about-pull-requests/) process.
-Use the preview tab in GitHub to make sure that it is properly
+
+→ Use the preview tab in GitHub to make sure that it is properly
 formatted before committing.
-A pull request will cause integration tests to run automatically, so please review
+
+→ A pull request will cause integration tests to run automatically, so please review
 the results of the pipeline and correct any mistakes that are reported.
 
-If you plan to contribute often or have a larger change to make, it is best to
+**❕Important:** *If you plan to contribute often or have a larger change to make, it is best to
 setup an environment for contribution, which is what the rest of these guidelines
-describe.
+describe.*
 
-## Development Environment Setup
 
-### Prerequisites
+## How can I contribute?
 
-This repository uses a number of tools, including [melos](https://pub.dev/packages/melos) and [mason_cli](https://pub.dev/packages/mason_cli).
+### For Developers - Developer environment setup
+  
+**Prerequisites**
 
-1. Install it using the following command
-
-   ```sh
-   dart pub global activate melos
-   ```
-
-   > If the previous command prompted you to add a directory to your PATH, it is recommended you do so.  
-   > Once added to the PATH, you can use the shorter commands listed in steps 2 & 3, otherwise you will have to run them through dart.
-
-2. Bootstrap the project using melos
-   ```sh
-   melos bootstrap
-   ```
-
-   If `melos` wasn't added to the PATH, you can also run it through `dart`:
-   ```sh
-   dart pub global run melos bootstrap
-   ```
-
-3. Run the setup script using melos
-
-   ```sh
-   melos run setup
-   ```
-
-   If `melos` wasn't added to the PATH, you can also run it through `dart`:
-   ```sh
-   dart pub global run melos run setup
-```
-
-### GitHub Repository Clone
+  * Install Dart: https://dart.dev/get-dart
+  * Install Flutter: https://docs.flutter.dev/get-started/install
+  
+**GitHub Repository Clone**
 
 To prepare your dedicated GitHub repository:
 
-1. Fork in GitHub https://github.com/atsign-foundation/at_app
-2. Clone *your forked repository* (e.g., `git clone git@github.com:atsign-foundation/at_app`)
+1. Fork in GitHub https://github.com/atsign-foundation/REPO
+2. Clone *your forked repository* (e.g., `git clone git@github.com:yourname/REPO`)
 3. Set your remotes as follows:
 
-   ```sh
-   cd at_app
-   git remote add upstream git@github.com:atsign-foundation/at_app.git
+    ```sh
+   cd REPO
+   git remote add upstream git@github.com:atsign-foundation/REPO.git
    git remote set-url upstream --push DISABLED
    ```
-
-   Running `git remote -v` should give something similar to:
+   
+ Running `git remote -v` should give something similar to:
 
    ```text
-   origin  git@github.com:atsign-foundation/at_app.git (fetch)
-   origin  git@github.com:atsign-foundation/at_app.git (push)
-   upstream        git@github.com:atsign-foundation/at_app.git (fetch)
+   origin  git@github.com:yourname/REPO.git (fetch)
+   origin  git@github.com:yourname/REPO.git (push)
+   upstream        git@github.com:atsign-foundation/REPO.git (fetch)
    upstream        DISABLED (push)
    ```
 
    The use of `upstream --push DISABLED` is to prevent those
    with `write` access to the main repository from accidentally pushing changes
-   directly.
-
-### Development Process
+   directly. 
+  
+ **Development Process**
 
 1. Fetch latest changes from main repository:
 
@@ -90,7 +77,7 @@ To prepare your dedicated GitHub repository:
    git fetch upstream
    ```
 
-1. Reset your fork's `trunk` branch to exactly match upstream `trunk`:
+2. Reset your fork's `trunk` branch to exactly match upstream `trunk`:
 
    ```sh
    git checkout trunk
@@ -99,8 +86,9 @@ To prepare your dedicated GitHub repository:
    ```
 
    **IMPORTANT**: Do this only once, when you start working on new feature as
-   the commands above will completely overwrite any local changes in `trunk` content.
-1. Edit, edit, edit, and commit your changes to Git:
+   the commands above will completely overwrite any local changes in `trunk` content. 
+
+3. Edit, edit, edit, and commit your changes to Git:
 
    ```sh
    # edit, edit, edit
@@ -109,89 +97,60 @@ To prepare your dedicated GitHub repository:
    git push
    ```
 
-1. How to run tests:  
-   First build the entire project:
-   ```sh
-   melos run build
-   ```
-   `melos` will dump a copy of every generated app into `build/`.  
-   From there, you can run each of the generated apps to determine if they were built correctly.
+ 4. Open a new Pull Request to the main repository using your `trunk` branch 
+  
+**Branching Strategy** 
 
-   *More automated tests coming soon*
+In general, contributors should develop on branches based off of main.
 
-1. Open a new Pull Request to the main repository using your `trunk` branch
+-
 
-## @‎library release process
+### For Designers🎨
 
-The @ Foundation produces several widgets and libraries that the app developer
-can make use of to develop apps on @‎protocol. These libraries are developed in
-Dart & Flutter and published to [pub.dev](https://pub.dev/publishers/atsign.org/packages).
+You may reference this [issue](https://github.com/atsign-foundation/privatefit/issues/5).
 
-![alt_text](images/image1.png "Version flow")
+Please take a look at the Design System when suggesting features, and you are welcome to use our [Google Docs Template]() to suggest designs under the issue as a comment.
 
-## Following the changes
+-
 
-The @ Foundation publishes libraries and widgets to
-[https://pub.dev/publishers/atsign.org/packages](https://pub.dev/publishers/atsign.org/packages).
-Each of these libraries contains a tab called “Changelog” that shows various
-published versions and a short description of what changes that went in.
+### For Technical, UX, Business Writers✍️ 
 
-![alt_text](images/image2.png "Changelog screenshot")
+Do you want to contribute to the Privatefit documentation? Please read through the docs [contributing guides]() and design systems.
 
-Also the “Versions” tab shows the versions published in the reverse
-chronological order.
+-
 
-![alt_text](images/image3.png "Versions screenshot")
+### Create yours… 🖱🪄
 
-An additional step when bumping the version, make sure to update the [version.dart file.](lib/src/version.dart)
+→ Find a bug, report it.
 
-## Reporting a bug
+→ Find a typo, help us fix it.
 
-The best place to start reporting bugs on the libraries published by 
-@‎protocol would be the “View/report issues” link available on
-[pub.dev](https://pub.dev/publishers/atsign.org/packages).
+→ Got ideas for a feature, open an issue to propose a change.
 
-![alt_text](images/image4.png "View/report issues highlight")
+→ Find other ways that you can contribute to our projects by reading [this article](https://opensource.guide/how-to-contribute/).
 
-Once the link is clicked, one should be redirected to GitHub repo where the
-issue can be reported by clicking on the “New issue” button.
+**Please avoid:**
 
-![alt_text](images/image5.png "Issues list")
+→ Opening pull requests for any issue marked core. These issues require additional context from the core team at Priv@teFit and any external pull requests will not be accepted. 
 
-Clicking on the  “New issue” button should take you to the screen to choose
-where the issue is a Bug or an Enhancement.
+## Discussions
 
-![alt_text](images/image6.png "Choose Bug report")
+#PrivateFit channel on our discord community is a great place to ask questions, provide feedback that isn't a bug complaint or feature request, and learn about best practices. There's even a search button to discover if your question has already been answered!
 
-Upon clicking on the “Get started” button against the “Bug Report” you should
-be directed to a page with a bug template provided by the @company. Filling
-out all of the fields in the template gives the @company a better chance to
-reproduce and fix the bug.
+## 📚Resources
 
-![alt_text](images/image7.png "Filling a Bug report")
+→ [A guide to making open source contributions](https://opensource.guide/how-to-contribute/).
 
-## Bug fix and delivery process
+→ [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-* Bugs will initially be placed into the Sprint Planning Board so that they
-can be triaged, estimated and scheduled.
-* Once work on a bug is scheduled one or more engineers will be assigned to
-fixing the bug, and story points will be allocated to match the time estimated
-to fix the bug.
-* Progress on fixing the bug will be updated in the associated GitHub issue,
-and reviewed during subsequent sprint planning meetings where necessary.
-* Once a fix is created we will work with the reporter to ensure that the fix
-is appropriate to their needs, and where possible this should happen prior to
-release to pub.dev
+→ [Github Help](https://docs.github.com/en).
 
-## Closure of the bug
+---
 
-* Where possible the issue associated with the bug should be closed by mutual
-consent with the reporter. This could be:
-    * The reporter closing the issue because they have found a workaround.
-    * The reporter closing the issue because they are satisfied with a fix
-    provided.
-    * A team member closes the issue after the reporter leaves a comment
-    indicating that they are happy for it to be closed.
-* If the reporter does not respond within 14 calendar days then we must assume
-that they no longer have an interest in fixing the bug and work in progress can
-be closed out at the team’s discretion.
+Priv@tefit is possible because of you and other volunteers. We encourage you to pitch in and join the team! 
+
+Thanks for Contributing❕
+
+with 💙 
+
+Priv@teFit Team
