@@ -27,16 +27,16 @@
 Priv@teFit is an open-source private wellness app that allows consumers to share health data with each other through a peer-to-peer encrypted connection built on the @platform. Born at HackPrinceton 2021 and created by Raheem Idowu, and Michelle Liu. This project originated as a winning project from the hackathon.
 Priv@teFit hopes to offer features like:
 
-1. Message your health community polymorphically, with your fitness trainer, your workout pals, and your healthy diet friends.
+> 1. Message your health community polymorphically, with your fitness trainer, your workout pals, and your healthy diet friends.
 - Share your fitness trainer data that only he or she can view.
 - Share your fitness routine data that only certain friends can view.
 - Share your diet plan data only with a few trusted pals.
 
-2. Privately monitor your daily activity, sports and workout routine, and calories.
+> 2. Privately monitor your daily activity, sports and workout routine, and calories.
 - Retract that data and info when you want.
 - Modify that data and info when you want.
 
-3. Reason over your own data without Big Data companies getting access or forcing you down AI paths that just don’t fit who you really are.
+> 3. Reason over your own data without Big Data companies getting access or forcing you down AI paths that just don’t fit who you really are.
 
 ## ＠ What’s the @platform? 
 
@@ -46,12 +46,12 @@ Priv@teFit hopes to offer features like:
 
 ## 🦦 Get Started
 
-1. Fork this repo before getting started with the3 code.
-2. If this is your first time here, we strongly recommend navigating through our ‘getting started’ page. There, you will find all of the steps you will need to take in order to start developing your very own @platform application.
+> 1. Fork this repo before getting started with the3 code.
+> 2. If this is your first time here, we strongly recommend navigating through our ‘getting started’ page. There, you will find all of the steps you will need to take in order to start developing your very own @platform application.
 
 Note: - If you’d like to see what an @platform application looks like, feel free to visit our ‘sample apps’ page! Here, you will find a list of demonstrative applications showing off the many verbs/methods that exist on the @platform. The most basic of this list is ‘at_hello_world’ and the most advanced are ‘at_cookbook’ and ‘@mosphere’
 
-3. You can check our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and details on contribution to the atsign foundation and our application architecture.
+> 3. You can check our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and details on contribution to the atsign foundation and our application architecture.
 
 ## >> Packages Required: 
      
