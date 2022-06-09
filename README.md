@@ -40,9 +40,9 @@ Priv@teFit hopes to offer features like:
 
 ## ＠ What’s the @platform? 
 
-- @Platform Description
-- Get Started Blog Link
-- @Platform architecture
+- [@Platform Description](https://atsign.dev/)
+- [Get Started Blog Link](https://atsign.dev/docs/get-started/)
+- [@Platform architecture](https://atsign.dev/docs/functional_architecture/)
 
 ## 🦦 Get Started
 
