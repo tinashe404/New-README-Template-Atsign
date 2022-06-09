@@ -54,7 +54,7 @@ Priv@teFit hopes to offer features like:
 
 Note: - If you’d like to see what an @platform application looks like, feel free to visit our [Sample Apps](https://atsign.com/apps/) page! Here, you will find a list of demonstrative applications showing off the many verbs/methods that exist on the @platform. The most basic of this list is ‘at_hello_world’ and the most advanced are ‘at_cookbook’ and ‘@mosphere’
 
-> 3. You can check our [CONTRIBUTING.md](./CONTRIBUTING GUIDE.md) for guidelines and details on contribution to the atsign foundation and our application architecture.
+> 3. You can check our [CONTRIBUTING.md](./CONTRIBUTORS GUIDE.md) for guidelines and details on contribution to the atsign foundation and our application architecture.
 
 ## >> Packages Required: 
      
